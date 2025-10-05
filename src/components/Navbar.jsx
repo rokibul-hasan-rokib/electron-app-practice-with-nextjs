@@ -25,7 +25,6 @@ export default function Navbar() {
             Rokib POS
           </Link>
 
-          {/* Desktop Links */}
           <div className="hidden md:flex space-x-6 items-center">
             {navLinks.map((link) => (
               <Link
@@ -41,7 +40,6 @@ export default function Navbar() {
             </button>
           </div>
 
-          {/* Mobile menu button */}
           <div className="md:hidden flex items-center">
             <button
               onClick={toggleMenu}
