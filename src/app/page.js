@@ -10,6 +10,8 @@ export default function Home() {
       href: "/pos",
       gradient: "from-indigo-500 to-purple-500",
     },
+
+    
     {
       title: "Products",
       icon: "📦",

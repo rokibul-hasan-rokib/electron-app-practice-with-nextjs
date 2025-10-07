@@ -55,6 +55,8 @@ export default function Navbar() {
         </div>
       </div>
 
+
+
       {isOpen && (
         <div className="md:hidden bg-white border-t border-gray-200">
           <div className="px-4 py-4 space-y-2">
